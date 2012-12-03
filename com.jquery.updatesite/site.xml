@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.jquery.plugin.feature_1.1.0.201203181258.jar" id="com.jquery.plugin.feature" version="1.1.0.201203181258">
+      <category name="jquery"/>
+   </feature>
+   <category-def name="jquery" label="The jQuery Project"/>
+</site>

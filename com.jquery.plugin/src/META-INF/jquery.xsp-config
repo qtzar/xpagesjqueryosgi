@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+	<faces-config-extension>
+		<namespace-uri>http://www.jquery.com/xsp/coreex</namespace-uri>
+		<default-prefix>jQuery</default-prefix>
+	</faces-config-extension>
+	<component>
+		<description>Inserts jQuery Library into the current page
+		</description>
+		<display-name>jQuery Library</display-name>
+		<component-type>com.jquery.plugin.UIJquery</component-type>
+		<component-class>com.jquery.plugin.components.UIJquery</component-class>
+		<property>
+			<description>URL to External jQuery Library if you want to use a CDN
+			</description>
+			<display-name>jQuery URL</display-name>
+			<property-name>jqueryurl</property-name>
+			<property-class>java.lang.String</property-class>
+			<property-extension>
+				<designer-extension>
+					<category>CDN</category>
+					<editor>com.ibm.workplace.designer.property.editors.comboParameterEditor</editor>
+					<editor-parameter> http://code.jquery.com/jquery-1.7.1.min.js
+					</editor-parameter>
+				</designer-extension>
+			</property-extension>
+		</property>
+		<component-extension>
+			<component-family>com.jquery.plugin</component-family>
+			<renderer-type>com.jquery.plugin.Jquery</renderer-type>
+			<tag-name>jQueryLibrary</tag-name>
+			<designer-extension>
+				<in-palette>true</in-palette>
+				<category>The jQuery Project</category>
+			</designer-extension>
+		</component-extension>
+	</component>
+	<component>
+		<description>Inserts jQueryUI Library into the current page</description>
+		<display-name>jQueryUI Library</display-name>
+		<component-type>com.jquery.plugin.UIJqueryui</component-type>
+		<component-class>com.jquery.plugin.components.UIJqueryui</component-class>
+		<property>
+			<description>URL to External jQueryUI Library if you want to use a CDN
+			</description>
+			<display-name>jQuery UI URL</display-name>
+			<property-name>jqueryuiurl</property-name>
+			<property-class>java.lang.String</property-class>
+			<property-extension>
+				<designer-extension>
+					<category>CDN</category>
+					<editor>com.ibm.workplace.designer.property.editors.comboParameterEditor
+					</editor>
+					<editor-parameter> https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js
+					</editor-parameter>
+				</designer-extension>
+			</property-extension>
+		</property>
+		<property>
+			<description>URL to External jQuery Library if you want to use a CDN
+			</description>
+			<display-name>jQuery URL</display-name>
+			<property-name>jqueryurl</property-name>
+			<property-class>java.lang.String</property-class>
+			<property-extension>
+				<designer-extension>
+					<category>CDN</category>
+					<editor>com.ibm.workplace.designer.property.editors.comboParameterEditor
+					</editor>
+					<editor-parameter> http://code.jquery.com/jquery-1.7.1.min.js
+					</editor-parameter>
+				</designer-extension>
+			</property-extension>
+		</property>
+		<property>
+			<property-name>jqueryuitheme</property-name>
+			<display-name>jQuery UI Theme</display-name>
+			<description>jQuery UI Theme</description>
+			<property-class>java.lang.String</property-class>
+			<property-extension>
+				<designer-extension>
+					<category>jQuery UI</category>
+					<editor>com.ibm.workplace.designer.property.editors.comboParameterEditor
+					</editor>
+					<editor-parameter>black-tie&#xd;blitzer&#xd;cupertino&#xd;dark-hive&#xd;dot-luv&#xd;
+						eggplant&#xd;excite-bike&#xd;flick&#xd;hot-sneaks&#xd;humanity&#xd;le-frog&#xd;
+						mint-choc&#xd;overcast&#xd;pepper-grinder&#xd;redmond&#xd;smoothness&#xd; south-street&#xd;start&#xd;sunny&#xd;swanky-purse&#xd;
+						trontastic&#xd;ui-darkness&#xd;ui-lightness&#xd;vader
+					</editor-parameter>
+					<default-value>smoothness</default-value>
+				</designer-extension>
+				<required>true</required>
+			</property-extension>
+		</property>
+		<component-extension>
+			<component-family>com.jquery.plugin</component-family>
+			<renderer-type>com.jquery.plugin.Jqueryui</renderer-type>
+			<tag-name>jQueryUILibrary</tag-name>
+			<designer-extension>
+				<in-palette>true</in-palette>
+				<category>The jQuery Project</category>
+			</designer-extension>
+		</component-extension>
+	</component>
+	<component>
+		<description>Inserts jQuery Mobile Library into the current page
+		</description>
+		<display-name>jQuery Mobile Library</display-name>
+		<component-type>com.jquery.plugin.UIJqueryMobile</component-type>
+		<component-class>com.jquery.plugin.components.UIJqueryMobile</component-class>
+		<property>
+			<description>URL to External jQuery Mobile Library if you want to use a CDN
+			</description>
+			<display-name>jQuery UI URL</display-name>
+			<property-name>jquerymobileurl</property-name>
+			<property-class>java.lang.String</property-class>
+			<property-extension>
+				<designer-extension>
+					<category>CDN</category>
+					<editor>com.ibm.workplace.designer.property.editors.comboParameterEditor
+					</editor>
+					<editor-parameter> http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js
+					</editor-parameter>
+				</designer-extension>
+			</property-extension>
+		</property>
+		<property>
+			<description>URL to External jQuery Library if you want to use a CDN
+			</description>
+			<display-name>jQuery URL</display-name>
+			<property-name>jqueryurl</property-name>
+			<property-class>java.lang.String</property-class>
+			<property-extension>
+				<designer-extension>
+					<category>CDN</category>
+					<editor>com.ibm.workplace.designer.property.editors.comboParameterEditor
+					</editor>
+					<editor-parameter> http://code.jquery.com/jquery-1.7.1.min.js
+					</editor-parameter>
+				</designer-extension>
+			</property-extension>
+		</property>
+		<component-extension>
+			<component-family>com.jquery.plugin</component-family>
+			<renderer-type>com.jquery.plugin.JqueryMobile</renderer-type>
+			<tag-name>jQueryMobileLibrary</tag-name>
+			<designer-extension>
+				<in-palette>true</in-palette>
+				<category>The jQuery Project</category>
+			</designer-extension>
+		</component-extension>
+	</component>
+</faces-config>
